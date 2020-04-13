@@ -17,7 +17,7 @@ def count_empty_strings(array)
   total = 0
   row_index = 0
   while row_index < array.count do
-    if array[row_index].is_a? String
+    if array[row_index] == ""
       total += 1
     end
     row_index += 1
